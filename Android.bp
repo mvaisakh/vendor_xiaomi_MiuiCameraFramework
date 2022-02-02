@@ -1,0 +1,8 @@
+java_library {
+    name: "MiuiCameraFramework",
+    installable: true,
+
+    srcs: [
+        "src/**/*.java",
+    ],
+}
