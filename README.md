@@ -5,5 +5,5 @@ This repository contains bare minimal reverse engineered miui framework dependen
 To add this to support Miui Camera on your device, add this to device.mk
 
 ```
-$(call inherit-product-if-exists, device/xiaomi/MiuiCameraFramework/framework.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCameraFramework/framework.mk)
 ```
