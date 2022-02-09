@@ -21,4 +21,12 @@ public final class Build extends android.os.Build {
         String cnProp = SystemProperties.get("ro.boot.hwc");
         return cnProp.equals("CN");
     }
+
+    public static String getRegion() {
+        if(!isChinese()) {
+            return "GL";
+        } else {
+            return "CN";
+        }
+    }
 }
