@@ -8,4 +8,6 @@ package miui.os;
 public final class Build extends android.os.Build {
     public Build() {
     }
+
+    public static final boolean IS_STABLE_VERSION = true;
 }
